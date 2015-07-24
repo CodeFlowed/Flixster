@@ -7,7 +7,6 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
 	<nav class="navbar navbar-inverse">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,6 +34,13 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
+	<% if notice.present? %>
+		<p class="alert alert-info"><%= notice %></p>
+	<% end %>
+	
+	<% if alert.present? %>
+		<p class="alert alert-danger"><%= alert %></p>
+	<% end %>
 
 <%= yield %>
 
