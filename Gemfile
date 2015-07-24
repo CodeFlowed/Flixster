@@ -41,6 +41,9 @@ end
 group :development do
   # Easily make factories for testing
   gem "factory_girl_rails", "~> 4.0"
+
+  # Get table print gem so I can get pretty printouts of db rows
+  gem "table_print"
 end
 
 # Use ActiveModel has_secure_password
