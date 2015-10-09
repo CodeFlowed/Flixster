@@ -33,6 +33,9 @@ gem 'bootstrap-sass', '~> 3.3.5'
 # Add devise gem for user authentication
 gem 'devise', '>= 3.2.4'
 
+# Add gem for forms
+gem 'simple_form'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
