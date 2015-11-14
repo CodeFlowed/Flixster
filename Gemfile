@@ -36,6 +36,15 @@ gem 'devise', '>= 3.2.4'
 # Add gem for forms
 gem 'simple_form'
 
+# Add carrierwave for uploading pics and videos
+gem 'carrierwave'
+
+# Add figaro to connect with Amazon S3
+gem 'figaro'
+
+# Add gem fog to allow CarrierWave to communicate with Amazon S3
+gem "fog", "~> 1.3.1"
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
