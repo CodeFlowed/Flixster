@@ -48,6 +48,9 @@ gem "fog", "~> 1.3.1"
 # Add gem MiniMagick to resize uploaded photos
 gem 'mini_magick', '~> 4.3.1'
 
+# Add gem carrierwave-aws because it's better at uploading videos than fog gem
+gem 'carrierwave-aws'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
