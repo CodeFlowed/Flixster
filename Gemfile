@@ -45,6 +45,9 @@ gem 'figaro'
 # Add gem fog to allow CarrierWave to communicate with Amazon S3
 gem "fog", "~> 1.3.1"
 
+# Add gem MiniMagick to resize uploaded photos
+gem 'mini_magick', '~> 4.3.1'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
